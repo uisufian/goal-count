@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(227, 242, 255);
+}
+
+.appBox {
+	background: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 300px;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid rgb(221, 236, 253);
+	box-shadow: 0px 0px 10px 10px rgba(3, 20, 53, 0);
+	text-align: center;
+	margin-top: 30px;
+    column-gap: 15px;
+}
+.appCol {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+    
+}
+.scoreNum {
+	background: rgb(255, 11, 92);
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	border-radius: 50px;
+	color: rgb(255, 255,255);
+	margin-bottom: 30px;
+	border: 2px dashed #fff;
+}
+.scoreBtn {
+	background: rgb(22, 189, 50);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.scoreBtn button {
+	background: rgb(22, 189, 50);
+	border-left: 1px solid rgb(2, 60, 12);
+	padding: 5px;
+	width: 100%;
+	border-right: 1px solid rgb(32, 251, 69);
+	border-bottom: 0;
+	border-top: 0;
+	cursor: pointer;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+}
+
+.scoreBtn button:first-child{
+    border-left: 0px;
+}
+.scoreBtn button:last-child{
+    border-right: 0px;
+}
+
+.reset {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border: 0;
+	padding: 5px 25px;
+	background: red;
+	color: #fff;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-top: 15px;
+}

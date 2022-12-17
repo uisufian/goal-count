@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Counter</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <div class="appBox">
+
+        <div class="appCol">
+            <h1>BAN</h1>
+            <span class="scoreNum" id="score-el1">0</span>
+            <div class="scoreBtn">
+                <button onclick="pAdd1()">+1</button>
+                <button onclick="pAdd2()">+2</button>
+                <button onclick="pAdd3()">+3</button>
+            </div>
+        </div>
+
+        <div class="appCol">
+            <h1>IND</h1>
+            <span class="scoreNum" id="score-el2">0</span>
+            <div class="scoreBtn">
+                <button onclick="eAdd1()">+1</button>
+                <button onclick="eAdd2()">+2</button>
+                <button onclick="eAdd3()">+3</button>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <button class="reset" onclick="reset()"> Reset </button>
+    
+</body>
+<script src="app.js"></script>
+</html>
